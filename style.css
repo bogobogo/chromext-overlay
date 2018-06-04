@@ -1,0 +1,13 @@
+#popup { 
+    display: none;
+    position: absolute;
+    bottom : 0;
+    right: 0;
+    text-align: right;
+    user-select: none;
+    height: 100px;
+}
+
+::selection {
+    background: #ffb7b7; /* WebKit/Blink Browsers */
+}
